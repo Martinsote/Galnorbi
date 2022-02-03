@@ -7,7 +7,7 @@ body {
 }
 
 a {
-  color: #009970;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -67,18 +67,18 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   top: 20px;
 }
-#header .header-container {
-  background: #fff;
-}
+/*#header .header-container {
+
+}*/
 #header.header-scrolled {
-  background: #fff;
+  background: #012B20;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   top: 0;
 }
 #header .logo {
   overflow: hidden;
   padding: 16px 30px 12px 30px;
-  background: #fff;
+
 }
 #header .logo h1 {
   font-size: 26px;
@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 60px;
+  max-height: 90px;
 }
 @media (max-width: 992px) {
   #header {
@@ -137,7 +137,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  color: #36343a;
+  color: #fff;
   transition: 0.3s;
   font-size: 13px;
   font-weight: 500;
